@@ -1,0 +1,53 @@
+
+-- CREATE DATABASE job_portal;
+
+
+-- USE job_portal;
+
+-- CREATE TABLE jobs (
+--     id INT AUTO_INCREMENT PRIMARY KEY,
+--     title VARCHAR(300) NOT NULL,
+--     description TEXT NOT NULL
+-- );
+
+-- CREATE TABLE applications (
+--     id INT AUTO_INCREMENT PRIMARY KEY,
+--     name VARCHAR(300) NOT NULL,
+--     email VARCHAR(300) NOT NULL,
+--     job_id INT,
+--     resume VARCHAR(300),
+--     FOREIGN KEY (job_id) REFERENCES jobs(id)
+-- );
+
+-- 
+
+-- INSERT INTO jobs (title, description) VALUES
+('Cybersecurity Analyst', 'Identify and mitigate security vulnerabilities by implementing threat detection systems and responding to incidents.'),
+('Data Scientist', 'Utilize statistical analysis and machine learning models to extract insights from large datasets and support business decisions.'),
+('Frontend Developer', 'Design and develop engaging user interfaces using modern JavaScript frameworks like React or Angular.'),
+('DevOps Engineer', 'Streamline software development processes by automating CI/CD pipelines and managing scalable cloud infrastructure.'),
+('Product Manager', 'Lead cross-functional teams to develop and launch products that align with market demands and business objectives.'),
+('Full Stack Developer', 'Develop and deploy full-stack web applications, working on both frontend and backend components using various technologies.'),
+('Data Analyst', 'Interpret complex data sets to generate actionable insights, create reports, and support strategic decision-making.'),
+('Software Engineer', 'Write clean, efficient code to build scalable software applications while collaborating with multidisciplinary teams.'),
+('QA Engineer', 'Ensure software quality by developing automated test scripts, conducting manual testing, and identifying bugs.'),
+('Mobile Developer', 'Build feature-rich mobile applications for iOS and Android platforms, ensuring performance and user satisfaction.'),
+('Business Analyst', 'Analyze business operations, identify areas for improvement, and propose data-driven solutions to achieve goals.'),
+('Cloud Engineer', 'Architect, deploy, and manage cloud solutions using AWS, Azure, or Google Cloud for scalable and secure applications.'),
+('Blockchain Developer', 'Design, build, and implement secure blockchain solutions using distributed ledger technology for various applications.'),
+('System Administrator', 'Manage servers, monitor system performance, and ensure the smooth operation of enterprise IT environments.'),
+('UX/UI Designer', 'Conduct user research, create wireframes, and develop visually appealing and user-friendly interfaces.'),
+('Backend Developer', 'Develop robust APIs and server-side logic using technologies like Node.js, Express, or Python to support web applications.'),
+('Machine Learning Engineer', 'Design and deploy machine learning models to solve business problems and optimize decision-making processes.'),
+('IT Support Specialist', 'Provide technical assistance to end-users, troubleshoot hardware and software issues, and maintain system functionality.'),
+('Network Engineer', 'Design and manage enterprise network infrastructure, ensuring optimal performance and security.'),
+('Database Administrator', 'Administer, monitor, and optimize database systems to ensure data accuracy, security, and performance.');
+
+
+-- Insert sample applications
+INSERT INTO applications (name, email, job_id, resume) VALUES
+('GOKUL', 'gokulbalasubramaniyam30@gmail.com', 1, 'uploads\1742985995002_GOKUL RESUME.pdf'),
+('abishek', 'abishek@example.com', 2, 'uploads/abi_resume.docx'),
+('hema', 'hema@example.com', 3, 'uploads/hema_resume.pdf'),
+('leo', 'leo@example.com', 4, 'uploads/leo_resume.doc'),
+('herold', 'herold@example.com', 5, 'uploads/herold resume.pdf');

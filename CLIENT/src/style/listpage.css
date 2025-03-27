@@ -1,0 +1,113 @@
+        /* General Styles */
+        body {
+                margin: 0;
+                padding: 0;
+                background: linear-gradient(135deg, #1e1e2f, #3a3a55);
+                font-family: 'Poppins', sans-serif;
+                color: #fff;
+        }
+        
+        .container {
+                max-width: 900px;
+                margin: 60px auto;
+                padding: 30px;
+                background: rgba(255, 255, 255, 0.1);
+                border-radius: 20px;
+                backdrop-filter: blur(20px);
+                box-shadow: 0 15px 40px rgba(0,0,0,0.2);
+                overflow: hidden;
+        }
+        
+        /* Header Section */
+        h2 {
+                font-size: 3rem;
+                text-align: center;
+                color: #00d4ff;
+                margin-bottom: 40px;
+        }
+        
+        ul {
+                list-style-type: none;
+                padding: 0;
+        }
+        
+        li {
+                background: rgba(255, 255, 255, 0.15);
+                margin-bottom: 20px;
+                padding: 30px;
+                border-radius: 16px;
+                box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+                transition: all 0.4s ease;
+                backdrop-filter: blur(10px);
+        }
+        
+        li:hover {
+                transform: translateY(-5px);
+                box-shadow: 0 12px 30px rgba(0,0,0,0.3);
+        }
+        
+        h3 {
+                color: #00d4ff;
+                margin-bottom: 12px;
+                font-size: 2rem;
+        }
+        
+        p {
+                color: #ccc;
+                line-height: 1.8;
+                font-size: 1.1rem;
+        }
+        
+        /* Link Styling */
+        a {
+                display: inline-block;
+                margin-top: 15px;
+                padding: 14px 28px;
+                background: linear-gradient(135deg, #00d4ff, #007bff);
+                color: #fff;
+                text-decoration: none;
+                border-radius: 30px;
+                font-weight: 600;
+                font-size: 1.1rem;
+                transition: all 0.3s ease;
+        }
+        
+        a:hover {
+                background: linear-gradient(135deg, #007bff, #00d4ff);
+                transform: scale(1.05);
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 600px) {
+                .container {
+                padding: 20px;
+                }
+        
+                li {
+                padding: 20px;
+                }
+        
+                a {
+                width: 100%;
+                text-align: center;
+                }
+        }
+        
+        @font-face {
+                font-family: 'Poppins';
+                src:  url('./font/Poppins-Regular.ttf') format('truetype');
+                font-weight: 400;
+                font-style: normal;
+        }
+        
+        @font-face {
+                font-family: 'Poppins';
+                src: url('./font/Poppins-Bold.ttf') format('truetype');
+                font-weight: 700;
+                font-style: normal;
+        }
+        
+        body {
+                font-family: 'Poppins', sans-serif;
+        }
+                
